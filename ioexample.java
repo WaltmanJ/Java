@@ -6,5 +6,6 @@ public class ioexample {
         System.out.print("Enter an integer: ");
         int user_Num = scanner.nextInt();
         System.out.println("You entered: " + user_Num);
+        scanner.close();
     }
 }
